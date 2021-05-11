@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/successAnimationsConstraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/backgroundColor"
+    tools:context="stc.app.stairwaytocollege.GoalAnimations">
+
+    <Button
+        android:id="@+id/animateClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="296dp"
+        android:layout_marginLeft="296dp"
+        android:layout_marginTop="676dp"
+        android:onClick="clearTexts"
+        android:text="Clear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/animateAlabamaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="676dp"
+        android:onClick="animateAlabama"
+        android:text="Alabama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/animateAuburnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="676dp"
+        android:onClick="animateAuburn"
+        android:text="Auburn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/alabamaAnimationTitleDemo"
+        android:layout_width="424dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="88dp"
+        android:background="@color/buttonBackgroundColorAlabama"
+        android:gravity="center"
+        android:text="@string/successAlabama"
+        android:textColor="@color/textColorAlabama"
+        android:textSize="@dimen/successPopupFontSize"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/alabamaAnimationTextDemo"
+        android:layout_width="417dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="536dp"
+        android:background="@color/buttonBackgroundColorAlabama"
+        android:gravity="center"
+        android:text="@string/successAlabama2"
+        android:textColor="@color/textColorAlabama"
+        android:textSize="@dimen/questionFontSize"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.833"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="gone" />
+
+    <TextView
+        android:id="@+id/auburnAnimationTitleDemo"
+        android:layout_width="428dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="136dp"
+        android:background="@color/buttonBackgroundColorAuburn"
+        android:gravity="center"
+        android:text="@string/successAuburn"
+        android:textColor="@color/buttonTextColorAuburn"
+        android:textSize="@dimen/successPopupFontSize"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/auburnAnimationTextDemo"
+        android:layout_width="415dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="476dp"
+        android:background="@color/buttonBackgroundColorAuburn"
+        android:gravity="center"
+        android:text="@string/successAuburn2"
+        android:textColor="@color/buttonTextColorAuburn"
+        android:textSize="@dimen/questionFontSize"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/alababamaAnimationLogoDemo"
+        android:layout_width="286dp"
+        android:layout_height="369dp"
+        android:layout_marginTop="192dp"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alabamalogo"
+        tools:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/auburnAnimationLogoDemo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/auburn_university_logo"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="3dp"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

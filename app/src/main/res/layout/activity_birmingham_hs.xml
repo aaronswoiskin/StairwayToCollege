@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="stc.app.stairwaytocollege.BirminghamHSActivity">
+
+    <Button
+        android:id="@+id/birminghamHSSubmit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/buttonSubmitBackgroundColor"
+        android:onClick="submitCourses"
+        android:text="@string/button_submit"
+        android:textColor="@color/buttonSubmitTextColor"
+        android:textSize="@dimen/submitButtonFontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/birminghamTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/titleFont"
+        android:text="@string/birmingham_title"
+        android:textAllCaps="false"
+        android:textColor="@color/titleColor"
+        android:textSize="@dimen/titleFontSize"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="40dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/birminghamHSSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/birminghamTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/showBirminghamCourse0"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classButtonHeight"
+                android:background="@color/buttonBackgroundColor"
+                android:fontFamily="monospace"
+                android:onClick="showCourses"
+                android:text="@string/birmingham_course0"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="@dimen/classButtonFontSize" />
+
+            <ScrollView
+                android:id="@+id/scrollView0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linear0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+
+            <View
+                android:id="@+id/divider5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/listDividerThickness"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <Button
+                android:id="@+id/showBirminghamCourse1"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classButtonHeight"
+                android:background="@color/buttonBackgroundColor"
+                android:fontFamily="monospace"
+                android:onClick="showCourses"
+                android:text="@string/birmingham_course1"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="@dimen/classButtonFontSize" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    tools:visibility="visible" />
+            </ScrollView>
+
+            <View
+                android:id="@+id/divider6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/listDividerThickness"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <Button
+                android:id="@+id/showBirminghamCourse2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classButtonHeight"
+                android:background="@color/buttonBackgroundColor"
+                android:fontFamily="monospace"
+                android:onClick="showCourses"
+                android:text="@string/birmingham_course2"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="@dimen/classButtonFontSize" />
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/listDividerThickness"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <Button
+                android:id="@+id/showBirminghamCourse3"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classButtonHeight"
+                android:background="@color/buttonBackgroundColor"
+                android:fontFamily="monospace"
+                android:onClick="showCourses"
+                android:text="@string/birmingham_course3"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="@dimen/classButtonFontSize" />
+
+            <ScrollView
+                android:id="@+id/scrollView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="showCourses"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/listDividerThickness"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible"
+                tools:visibility="invisible" />
+
+            <Button
+                android:id="@+id/showBirminghamCourse4"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classButtonHeight"
+                android:background="@color/buttonBackgroundColor"
+                android:fontFamily="monospace"
+                android:onClick="showCourses"
+                android:text="@string/birmingham_course4"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="@dimen/classButtonFontSize" />
+
+            <ScrollView
+                android:id="@+id/scrollView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/listDividerThickness"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/showBirminghamCourse5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classButtonHeight"
+                android:background="@color/buttonBackgroundColor"
+                android:fontFamily="monospace"
+                android:onClick="showCourses"
+                android:text="@string/birmingham_course5"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="@dimen/classButtonFontSize" />
+
+            <ScrollView
+                android:id="@+id/scrollView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linear5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                </LinearLayout>
+            </ScrollView>
+
+            <View
+                android:id="@+id/divider14"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/listDividerThickness"
+                android:background="?android:attr/listDivider"
+                android:visibility="invisible" />
+
+            <Button
+                android:id="@+id/showBirminghamCourse6"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classButtonHeight"
+                android:background="@color/buttonBackgroundColor"
+                android:fontFamily="monospace"
+                android:onClick="showCourses"
+                android:text="@string/birmingham_course6"
+                android:textColor="@color/buttonTextColor"
+                android:textSize="@dimen/classButtonFontSize" />
+
+            <ScrollView
+                android:id="@+id/scrollView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                tools:visibility="gone">
+
+                <LinearLayout
+                    android:id="@+id/linear6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+            </ScrollView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

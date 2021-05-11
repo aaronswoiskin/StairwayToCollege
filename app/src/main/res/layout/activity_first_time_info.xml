@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context="stc.app.stairwaytocollege.FirstTimeInfo">
+
+    <TextView
+        android:id="@+id/firstTimeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/titleFont"
+        android:text="@string/firstTimeTitle"
+        android:textColor="@color/titleColor"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/firstTimeScroll"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstTimeTitle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/firstTimeQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/firstTimeQuestion3"
+                android:textColor="@color/labelColor"
+                android:textSize="@dimen/questionFontSize" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFirstTimeQuestion3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ3_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9 - Freshman" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="10 - Sophomore" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="11 - Junior" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12 - Senior" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ3_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Continuation" />
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/firstTimeQuestion0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/firstTimeQuestion0"
+                android:textColor="@color/labelColor"
+                android:textSize="@dimen/questionFontSize" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFirstTimeQuestion0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ0_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="firstTimeQuestionOnClick"
+                    android:text="@string/aidProgram0" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ0_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="firstTimeQuestionOnClick"
+                    android:text="@string/aidProgram1" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ0_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="firstTimeQuestionOnClick"
+                    android:text="@string/aidProgram2" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ0_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="firstTimeQuestionOnClick"
+                    android:text="None" />
+
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/firstTimeQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/firstTimeQuestion1"
+                android:textColor="@color/labelColor"
+                android:textSize="@dimen/questionFontSize" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFirstTimeQuestion1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ1_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ1_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/firstTimeQuestion2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/firstTimeQuestion2a"
+                android:textColor="@color/labelColor"
+                android:textSize="@dimen/questionFontSize" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFirstTimeQuestion2a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ2a_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ2a_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/firstTimeQuestion2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/firstTimeQuestion2b"
+                android:textColor="@color/labelColor"
+                android:textSize="@dimen/questionFontSize" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupFirstTimeQuestion2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ2b_0"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No" />
+
+                <RadioButton
+                    android:id="@+id/radioFirstTimeQ2b_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes" />
+            </RadioGroup>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
+            <Button
+                android:id="@+id/firstTimeButtonSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/classButtonHeight"
+                android:background="@color/buttonSubmitBackgroundColor"
+                android:onClick="firstTimeQuestionSubmit"
+                android:text="@string/button_submit"
+                android:textColor="@color/buttonSubmitTextColor"
+                android:textSize="@dimen/classButtonFontSize" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

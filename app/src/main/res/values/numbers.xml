@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="classButtonWidth">400dp</dimen>
+    <dimen name="classButtonHeight">50dp</dimen>
+    <dimen name="classButtonFontSize">20sp</dimen>
+
+    <dimen name="submitButtonWidth">400dp</dimen>
+    <dimen name="submitButtonHeight">50dp</dimen>
+    <dimen name="submitButtonFontSize">18sp</dimen>
+
+    <dimen name="titleFontSize">40sp</dimen>
+    <dimen name="questionFontSize">20sp</dimen>
+    <dimen name="listDividerThickness">4sp</dimen>
+
+    <dimen name="successPopupFontSize">72sp</dimen>
+
+    <dimen name="courseScrollHeight">200dp</dimen>
+</resources>

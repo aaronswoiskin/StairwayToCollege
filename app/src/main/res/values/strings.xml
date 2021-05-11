@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Stairway to College©</string>
+    <string name="edit_message">Enter a school:</string>
+    <string name="button_send">Send</string>
+    <string name="button_submit">Submit</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_show">Show</string>
+    <string name="button_hide">Hide</string>
+
+    <string name="aidProgram0">GEAR UP</string>
+    <string name="aidProgram1">TRIO</string>
+    <string name="aidProgram2">AVID</string>
+
+    <string name="firstTimeTitle">New User Information</string>
+    <string name="firstTimeQuestion0">Are you participating in one of the following programs?</string>
+    <string name="firstTimeQuestion1">Do you give permission to release this information to the University(s) upon their request?</string>
+    <string name="firstTimeQuestion2a">Have you applied for admission to the University of (Alabama or Auburn)?</string>
+    <string name="firstTimeQuestion2b">Would you like Stairway to College to alert the University of (Alabama or Auburn) you are a GEAR UP, TRIO, or AVID participant and have applied to the University?</string>
+    <string name="firstTimeQuestion3">What is your current grade?</string>
+
+    <string name="notifyCollegePrompt">Would you like to alert the University of your progress towards admissions so they can monitor your progress and/or offer you outreach to assist you in your effort to gain admission?</string>
+
+    <string name="successAlabama">ROLL TIDE!</string>
+    <string name="successAlabama2">You\'re well on your way to becoming a great fit for the University of Alabama!</string>
+    <string name="successAuburn">WAR EAGLE!</string>
+    <string name="successAuburn2">You\'re well on your way to becoming a great fit for Auburn University!</string>
+
+    <string name="enter_hs">Enter High School:</string>
+    <string name="enter_univ">Enter University:</string>
+
+    <string-array name="birmingham_coursetypes">
+        <item>Career and Technical Education</item>
+        <item>English Language Arts (ELA)</item>
+        <item>English as a Second Language (ESL)</item>
+        <item>Fine Arts</item>
+        <item>Foreign Language</item>
+        <item>Mathematics</item>
+        <item>Science</item>
+        <item>Social Studies</item>
+    </string-array>
+
+    <string name="birmingham_title">Ramsay High School</string>
+    <string name="birmingham_course0">Career and Technical Education</string>
+    <string name="birmingham_course1">English Language Arts (ELA)</string>
+    <string name="birmingham_course2">Foreign Language</string>
+    <string name="birmingham_course3">Fine Arts</string>
+    <string name="birmingham_course4">Mathematics</string>
+    <string name="birmingham_course5">Science</string>
+    <string name="birmingham_course6">Social Studies</string>
+
+    <string name="tuscaloosa_subject0">English</string>
+    <string name="tuscaloosa_subject1">Social Sciences</string>
+    <string name="tuscaloosa_subject2">Mathematics</string>
+    <string name="tuscaloosa_subject3">Natural Sciences</string>
+    <string name="tuscaloosa_subject4">Foreign Language</string>
+
+    <string name="tuscaloosa_name">University of Alabama</string>
+
+    <string name="recommend_courses">Recommend Me Courses To Gain Admission</string>
+
+    <string-array name="letterGrades">
+        <item>"Select Grade</item>
+        <item>"A+"</item>
+        <item>"A" </item>
+        <item>"A-"</item>
+        <item>"B+"</item>
+        <item>"B" </item>
+        <item>"B-"</item>
+        <item>"C+"</item>
+        <item>"C" </item>
+        <item>"C-"</item>
+        <item>"D+"</item>
+        <item>"D" </item>
+        <item>"F" </item>
+    </string-array>
+
+    <string-array name="HighSchoolList">
+        <item>"Select High School"</item>
+        <item>"Ramsay High School"</item>
+    </string-array>
+
+    <string-array name="UniversityList">
+        <item>"Select University"</item>
+        <item>"Auburn University"</item>
+        <item>"University of Alabama"</item>
+    </string-array>
+
+    <string-array name="RamsayCourse0">
+        <item>Career Preparedness 1A</item>
+        <item>Career Preparedness 1B</item>
+        <item>Animation Layout 1A</item>
+        <item>Animation Layout 1B</item>
+        <item>Business Technology 1A</item>
+        <item>Business Technology 1B</item>
+    </string-array>
+    <string-array name="RamsayCourse1">
+        <item>English 9A</item>
+        <item>English 9B</item>
+        <item>English 10A</item>
+        <item>English 10B</item>
+        <item>English 11A</item>
+        <item>English 11B</item>
+        <item>English 9A Advanced</item>
+        <item>English 9B Advanced</item>
+        <item>English 10A Advanced</item>
+        <item>English 10B Advanced</item>
+        <item>English AP 11A</item>
+        <item>English AP 11B</item>
+        <item>English AP 12A</item>
+        <item>English AP 12B</item>
+    </string-array>
+    <string-array name="RamsayCourse2">
+        <item>Spanish 1A</item>
+        <item>Spanish 1B</item>
+        <item>Spanish 2A</item>
+        <item>Spanish 2B</item>
+        <item>Spanish 3A</item>
+        <item>Spanish 3B</item>
+        <item>Spanish 4A</item>
+        <item>Spanish 4B</item>
+        <item>French 1A</item>
+        <item>French 1B</item>
+        <item>French 2A</item>
+        <item>French 2B</item>
+        <item>French 3A</item>
+        <item>French 3B</item>
+        <item>French 4A</item>
+        <item>French 4B</item>
+        <item>AP Spanish A</item>
+        <item>AP Spanish B</item>
+    </string-array>
+    <string-array name="RamsayCourse3">
+        <item>Intro to Concert Band A</item>
+        <item>Intro to Concert Band  B</item>
+        <item>Intro to Marching Band A</item>
+        <item>Intro to Marching Band B</item>
+        <item>Intro to Orchestra A</item>
+        <item>Intro to Orchestra B</item>
+        <item>Intro to Show Choir A</item>
+        <item>Intro to Show Choir B</item>
+        <item>Intro to Dance 1A</item>
+        <item>Intro to Dance 1B</item>
+        <item>Intro to Theatre 1A</item>
+        <item>Intro to Theatre 1B</item>
+    </string-array>
+    <string-array name="RamsayCourse4">
+        <item>Algebra 1A</item>
+        <item>Algebra 1B</item>
+        <item>Geometry 1A</item>
+        <item>Geometry 1B</item>
+        <item>Algebra 2A</item>
+        <item>Algebra 2B</item>
+        <item>Algebra 1A Advanced</item>
+        <item>Algebra 1B Advanced</item>
+        <item>Geometry 1A Advanced</item>
+        <item>Geometry 1B Advanced</item>
+        <item>AP Calculus 1A</item>
+        <item>AP Calculus 1B</item>
+    </string-array>
+    <string-array name="RamsayCourse5">
+        <item>Biology 1A</item>
+        <item>Biology 1B</item>
+        <item>AP Biology 1A</item>
+        <item>AP Biology 1B</item>
+        <item>Chemistry 1A</item>
+        <item>Chemistry 1B</item>
+        <item>Advanced Chemistry 1A</item>
+        <item>Advanced Chemistry 1B</item>
+        <item>AP Chemistry 1A</item>
+        <item>AP Chemistry 1B</item>
+        <item>Advanced Physics 1A</item>
+        <item>Advanced Physics 1B</item>
+        <item>AP Physics 1A</item>
+        <item>AP Physics 1B</item>
+    </string-array>
+    <string-array name="RamsayCourse6">
+        <item>World History 9A</item>
+        <item>World History 9B</item>
+        <item>AP World History 9A</item>
+        <item>AP World History 9B</item>
+        <item>US History 10A</item>
+        <item>US History 10B</item>
+        <item>AP US History 10A</item>
+        <item>AP US History 10B</item>
+        <item>Economics</item>
+        <item>Psychology</item>
+        <item>US Government and Politics 12A</item>
+        <item>US Government and Politics 12B</item>
+        <item>AP US Government and Politics 12A</item>
+        <item>AP US Government and Politics 12B</item>
+        <item>African American History 12A</item>
+        <item>African American History 12B</item>
+    </string-array>
+    <string-array name="RamsayCourse7">
+        <item>English 1</item>
+        <item>English 2</item>
+        <item>English 3</item>
+        <item>English 4</item>
+        <item>English 5</item>
+        <item>English 6</item>
+    </string-array>
+
+</resources>

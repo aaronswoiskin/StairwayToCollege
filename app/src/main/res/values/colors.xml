@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="backgroundColor">#3399ff</color>
+    <color name="backgroundColor2">#0059b3</color>
+    <color name="titleColor">#0033cc</color>
+    <color name="labelColor">#ffd633</color>
+    <color name="buttonTextColor">#001a00</color>
+    <color name="buttonBackgroundColor">#339966</color>
+    <color name="buttonSubmitTextColor">#001a00</color>
+    <color name="buttonSubmitBackgroundColor">#006600</color>
+
+    <color name="textColorAP">#ffd633</color>
+
+    <color name="backgroundColorAlabama">#7F072C</color>
+    <color name="titleColorAlabama">#000000</color>
+    <color name="labelColorAlabama">#000000</color>
+    <color name="textColorAlabama">#ffd633</color>
+    <color name="buttonTextColorAlabama">#aaaaaa</color>
+    <color name="buttonBackgroundColorAlabama">#4d0000</color>
+    <color name="buttonSubmitTextColorAlabama">#aaaaaa</color>
+    <color name="buttonSubmitBackgroundColorAlabama">#660000</color>
+
+    <color name="backgroundColorAuburn">#496e9c</color>
+    <color name="titleColorAuburn">#000000</color>
+    <color name="labelColorAuburn">#000000</color>
+    <color name="textColorAuburn">#ffd633</color>
+    <color name="buttonTextColorAuburn">#dd550c</color>
+    <color name="buttonBackgroundColorAuburn">#03244d</color>
+    <color name="buttonSubmitTextColorAuburn">#dd550c</color>
+    <color name="buttonSubmitBackgroundColorAuburn">#03244d</color>
+</resources>
